@@ -1,0 +1,15 @@
+*.4ct
+*.4tc
+*.aux
+*.auxlock
+*.dvi
+*.html
+*.idv
+*.jax
+*.lg
+*.log
+*.oc
+*.out
+*.pdf
+*.tmp
+*.xref

@@ -1,0 +1,1 @@
+../ximeraLatex/xourse.cls
