@@ -1,0 +1,21 @@
+\documentclass[handout]{ximera}
+
+\input{preamble}
+
+\title{Expression bug}
+
+\begin{document}
+
+\begin{abstract} This activity seeks to stress test the expression parser.
+\end{abstract}
+
+
+\maketitle
+
+\begin{problem}
+Absolute values cannot be preceded by factors, though I think this is somewhat common:
+
+Try checking that $ 2|x| = |x|2$ is not true, $ 2|x| = \answer{|x|2}$
+\end{problem}
+
+\end{document}
