@@ -15,7 +15,17 @@
 \begin{problem}
 Absolute values cannot be preceded by factors, though I think this is somewhat common:
 
-Try checking that $ 2|x| = |x|2$ is not true, $ 2|x| = \answer{|x|2}$
+Try checking that $ 2|x| = |x|2$ is not true, $ 2|x| = \answer{2|x|}$
+
+Design bug on line 46 of math-expressions/lib/text-to-ast.js
+
+Change the grammar so that '|' expression '|' is a nonMinusFactor instead of factor
+\end{problem}
+
+\begin{problem}
+Absolute values cannot be directly squared:
+
+Try checking that $|x|^2 = \answer{|x|^2}$ is a parse error
 \end{problem}
 
 \end{document}
